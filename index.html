@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les Œuvres Culturelles Marocaines</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Les Œuvres Culturelles Marocaines</h1>
+            <div class="header-buttons">
+                <a href="#slider-container" class="btn btn-primary">Explorer</a>
+                <a href="#" class="btn btn-secondary" id="apply-btn">Je fais seulement apply</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="slider-container">
+        <div class="slider-controls">
+            <button id="prev-btn" class="nav-btn"><i class="fas fa-chevron-left"></i></button>
+            <button id="next-btn" class="nav-btn"><i class="fas fa-chevron-right"></i></button>
+        </div>
+        
+        <div class="slider">
+            <!-- Monument 1: Mosquée Hassan II -->
+            <div class="slide">
+                <div class="monument-card">
+                    <div class="monument-image">
+                        <img src="images/hassan-ii.jpg" alt="Mosquée Hassan II">
+                    </div>
+                    <div class="monument-info">
+                        <h2>Mosquée Hassan II 🕌</h2>
+                        <div class="monument-description">
+                            <p>La Mosquée Hassan II est l'une des plus grandes mosquées du monde. Son minaret, haut de 210 mètres, est l'un des plus grands au monde. Elle est partiellement construite sur la mer, offrant un cadre spectaculaire.</p>
+                        </div>
+                        <div class="monument-location">
+                            <i class="fas fa-map-marker-alt"></i> Casablanca
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Monument 2: La médina de Fès -->
+            <div class="slide">
+                <div class="monument-card">
+                    <div class="monument-image">
+                        <img src="images/fes-medina.jpg" alt="La médina de Fès">
+                    </div>
+                    <div class="monument-info">
+                        <h2>La médina de Fès 🏘</h2>
+                        <div class="monument-description">
+                            <p>La médina de Fès est un quartier historique avec des ruelles étroites et animées. Elle abrite l'Université Al Quaraouiyine, fondée au IXe siècle, qui est l'une des plus anciennes universités encore en activité. On y trouve des marchés traditionnels (souks) et des fontaines décoratives.</p>
+                        </div>
+                        <div class="monument-location">
+                            <i class="fas fa-map-marker-alt"></i> Fès
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Monument 3: Le ksar d'Aït Ben Haddou -->
+            <div class="slide">
+                <div class="monument-card">
+                    <div class="monument-image">
+                        <img src="images/ait-ben-haddou.jpg" alt="Le ksar d'Aït Ben Haddou">
+                    </div>
+                    <div class="monument-info">
+                        <h2>Le ksar d'Aït Ben Haddou 🏯</h2>
+                        <div class="monument-description">
+                            <p>Le ksar d'Aït Ben Haddou est un ancien village fortifié en terre, situé dans une vallée. Ce site emblématique, classé par l'UNESCO, est un exemple remarquable de l'architecture traditionnelle du sud du Maroc.</p>
+                            <p>Cette cité fortifiée du 17ème siècle est un exemple remarquable de l'architecture en terre du sud marocain.</p>
+                        </div>
+                        <div class="monument-location">
+                            <i class="fas fa-map-marker-alt"></i> Ouarzazate
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Monument 4: La Kasbah des Oudayas -->
+            <div class="slide">
+                <div class="monument-card">
+                    <div class="monument-image">
+                        <img src="images/kasbah-oudayas.jpg" alt="La Kasbah des Oudayas">
+                    </div>
+                    <div class="monument-info">
+                        <h2>La Kasbah des Oudayas 🏰</h2>
+                        <div class="monument-description">
+                            <p>La Kasbah des Oudayas est une ancienne forteresse située au bord de l'océan Atlantique à Rabat. Ses maisons aux couleurs bleu et blanc contrastent avec les paysages environnants, et la vue depuis la Kasbah sur l'océan est impressionnante.</p>
+                            <p>Construite au 12ème siècle, cette kasbah offre une vue imprenable sur l'embouchure du fleuve Bouregreg et l'océan Atlantique.</p>
+                        </div>
+                        <div class="monument-location">
+                            <i class="fas fa-map-marker-alt"></i> Rabat
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Monument 5: Volubilis -->
+            <div class="slide">
+                <div class="monument-card">
+                    <div class="monument-image">
+                        <img src="images/volubilis.jpg" alt="Volubilis">
+                    </div>
+                    <div class="monument-info">
+                        <h2>Volubilis 🏛</h2>
+                        <div class="monument-description">
+                            <p>Volubilis est un site archéologique qui abrite les vestiges d'une ancienne ville romaine. On y trouve des colonnes, des arcs et des mosaïques bien préservés qui témoignent de la grandeur de la ville il y a plus de 2000 ans.</p>
+                            <p>Ce site archéologique romain est l'un des mieux préservés d'Afrique du Nord et témoigne de l'expansion de l'Empire romain.</p>
+                        </div>
+                        <div class="monument-location">
+                            <i class="fas fa-map-marker-alt"></i> Meknès
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Monument 6: La médina de Marrakech -->
+            <div class="slide">
+                <div class="monument-card">
+                    <div class="monument-image">
+                        <img src="images/marrakech-medina.jpg" alt="La médina de Marrakech">
+                    </div>
+                    <div class="monument-info">
+                        <h2>La médina de Marrakech 🌇</h2>
+                        <div class="monument-description">
+                            <p>La médina de Marrakech est le cœur historique de la ville, avec ses ruelles étroites et son ambiance vibrante. La place Jemaa el-Fna, un lieu animé avec des spectacles, des marchands et des artistes, est un point central. La médina abrite également des monuments emblématiques comme la mosquée Koutoubia et le Palais de la Bahia.</p>
+                            <p>Fondée au 11ème siècle, la médina de Marrakech est un centre culturel vibrant et coloré.</p>
+                        </div>
+                        <div class="monument-location">
+                            <i class="fas fa-map-marker-alt"></i> Marrakech
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Monument 7: La médersa Ben Youssef -->
+            <div class="slide">
+                <div class="monument-card">
+                    <div class="monument-image">
+                        <img src="images/medersa-ben-youssef.jpeg" alt="La médersa Ben Youssef">
+                    </div>
+                    <div class="monument-info">
+                        <h2>La médersa Ben Youssef 📚</h2>
+                        <div class="monument-description">
+                            <p>La médersa Ben Youssef à Marrakech était une école religieuse importante au Moyen Âge. Son architecture, ornée de mosaïques colorées et de bois sculpté, en fait un chef-d'œuvre de l'art marocain traditionnel.</p>
+                            <p>Fondée au 14ème siècle, cette école coranique est un chef-d'œuvre de l'art islamique et de l'architecture marocaine.</p>
+                        </div>
+                        <div class="monument-location">
+                            <i class="fas fa-map-marker-alt"></i> Marrakech
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Monument 8: La ville bleue de Chefchaouen -->
+            <div class="slide">
+                <div class="monument-card">
+                    <div class="monument-image">
+                        <img src="images/chefchaouen.jpg" alt="La ville bleue de Chefchaouen">
+                    </div>
+                    <div class="monument-info">
+                        <h2>La ville bleue de Chefchaouen 🏡</h2>
+                        <div class="monument-description">
+                            <p>Chefchaouen est une ville située dans les montagnes du Rif, célèbre pour ses maisons peintes en bleu. Ce village pittoresque offre une atmosphère calme et relaxante, avec des ruelles charmantes et une vue imprenable sur les montagnes environnantes.</p>
+                            <p>Fondée en 1471, cette ville pittoresque nichée dans les montagnes du Rif est connue pour ses ruelles et bâtiments peints en différentes nuances de bleu.</p>
+                        </div>
+                        <div class="monument-location">
+                            <i class="fas fa-map-marker-alt"></i> Chefchaouen
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="slider-pagination">
+            <!-- Pagination dots will be added by JavaScript -->
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <!-- Le copyright a été supprimé ici -->
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+    <!-- Menu mobile -->
+    <div class="mobile-menu">
+        <button class="close-menu-btn">
+            <i class="fas fa-times"></i>
+        </button>
+        <ul class="mobile-menu-links">
+            <li><a href="#hassan-ii">Mosquée Hassan II</a></li>
+            <li><a href="#fes">Médina de Fès</a></li>
+            <li><a href="#ait-ben-haddou">Aït Ben Haddou</a></li>
+            <li><a href="#oudayas">Kasbah des Oudayas</a></li>
+            <li><a href="#volubilis">Volubilis</a></li>
+            <li><a href="#marrakech">Médina de Marrakech</a></li>
+            <li><a href="#ben-youssef">Médersa Ben Youssef</a></li>
+            <li><a href="#chefchaouen">Chefchaouen</a></li>
+        </ul>
+    </div>
+</body>
+</html>
